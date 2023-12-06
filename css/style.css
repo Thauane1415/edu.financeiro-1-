@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 3vh
+}
+
+.header {
+    background-color: green;
+    padding: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: rgb(1, 97, 9);
+    width: 27vh;
+    height: 6vh;
+}
+
+li {
+    margin-top: 30px;
+    padding: 1vh;
+}
+
+.EducacaoFinceiraGeral {
+    display: flex;
+    padding: 5vh;
+}
+
+.sobreEF {
+    width: 50%;
+    background-color: #14641CAB;
+    margin-right: 50px;
+    padding: 2vh;
+}
+
+.diciplinasESobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disciplina {
+    background-color: #14641CAB;
+    margin-right: 50px;
+    padding: 2vh;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: green;
+    padding: 3vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.collum {
+    display: flex;
+}
+
+.quadrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    padding: 1vh;
+}
+
+.quadrinho2 {
+    display: none;
+}
+iframe{
+    margin-right: 47px;
+}
+
+@media (max-width: 760px) {
+    .EducacaoFinceiraGeral {
+        flex-direction: column;
+        align-items: center;
+        padding: none;
+    }
+
+    .diciplinasESobre {
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        align-items: center;
+    }
+
+    .sobreEF {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    iframe {
+        width: 400px;
+        height: auto;
+    }
+
+    .quadrinho {
+        display: none;
+    }
+
+    .quadrinho2 {
+        display: flex;
+    }
+
+    .collum {
+        display: flex;
+    }
+
+    .quadrinho2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
